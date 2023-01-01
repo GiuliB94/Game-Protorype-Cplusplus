@@ -41,7 +41,7 @@ Enemy* EnemyFactory::getBoss(int wins) {
 		_enemy->setAbilityFromInventory(1, FireTornado);
 		break;
 	case 4:
-		_enemy = new Enemy("./Textures/Characters/spritesheets/boss5 KLOSTER 296x242 -12.png", 296, 242, 12, 1, 1);
+		_enemy = new Enemy("./Textures/Characters/spritesheets/boss1 512x512-10.png", 296, 242, 12, 1, 1);
 		if (_enemy == nullptr) {
 			std::cout << "no se pudo crear el Boss 5" << std::endl;
 		}
