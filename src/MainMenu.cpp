@@ -70,7 +70,7 @@ int mainMenu::update() {
 					_option = 2;
 					_menu[0].setString("Partida 1");
 					_menu[1].setString("Partida 2");
-					_menu[2].setString("Partida 3");
+					_menu[2].setString("Partida tres");
 					this->resetIndex();
 					break;
 				case 2:
